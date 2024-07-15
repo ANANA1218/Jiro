@@ -1,5 +1,5 @@
 import React from 'react';
-import Board from './components/Board';
+import displayData from './components/displayData';
 import './App.css';
 
 function App() {
@@ -7,7 +7,7 @@ function App() {
     <div className="App">
       <h1>Trello Clone</h1>
       <div className="board-container">
-        <Board />
+        <displayData />
       </div>
     </div>
   );

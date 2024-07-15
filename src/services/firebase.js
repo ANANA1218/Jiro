@@ -3,13 +3,13 @@ import 'firebase/auth';
 import 'firebase/firestore';
 
 const firebaseConfig = {
-    apiKey: "YOUR_API_KEY",
-    authDomain: "YOUR_PROJECT_ID.firebaseapp.com",
-    projectId: "YOUR_PROJECT_ID",
-    storageBucket: "YOUR_PROJECT_ID.appspot.com",
-    messagingSenderId: "YOUR_MESSAGING_SENDER_ID",
-    appId: "YOUR_APP_ID"
-};
+    apiKey: "AIzaSyDt7yqJ8zqkZ2lWIHSB8Gun4byRUqGYs6s",
+    authDomain: "jiro-ikram-annabelle.firebaseapp.com",
+    projectId: "jiro-ikram-annabelle",
+    storageBucket: "jiro-ikram-annabelle.appspot.com",
+    messagingSenderId: "1006974861342",
+    appId: "1:1006974861342:web:a2627312ed2e450fb9ee0f"
+}
 
 firebase.initializeApp(firebaseConfig);
 
